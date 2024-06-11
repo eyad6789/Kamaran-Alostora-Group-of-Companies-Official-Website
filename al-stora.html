@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- css file style -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/hayat.css">
+
+    <!-- cards changes you can edit it  -->
+    <style>
+        .card{
+            position: absolute;
+            transform: scale(0.75);
+            height:300px;
+            width:400px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            animation-name: cards-animation;
+            animation-iteration-count:infinite;
+            animation-duration: 7s;
+        }
+        .card-yellow,
+        .card-blue,
+        .card-green {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .card-yellow{
+            background-image:url(assets/images/bg-mbrator.jpg);
+            animation-delay: 3s;
+        }
+        .card-blue{
+            background-image: url(assets/images/bg-roby.jpg);
+            animation-delay: 6s;
+        }
+        .card-green{
+            background-image: url(assets/images/ser-1.jpg);
+            animation-delay: 9s;
+        }
+
+        @keyframes cards-animation {
+            0%  {
+            transform: scale(0.75) ;
+            z-index: 0;
+            }
+            9% {
+            transform: scale(0.9) translateY(40px);
+            z-index: 2;
+            }
+            33% {
+            transform: scale(0.9) translateY(40px);
+            z-index: 2;
+            }
+            42% {
+            transform: translateY(80px);
+            z-index: 3;
+            } 
+            66% {
+            transform: translateY(80px);
+            z-index: 3;
+            opacity: 1;
+            }
+            75% {
+            transform: translateY(130px);
+            opacity: 0;
+            }
+            80% {
+            transform: scale(0.75) translateY(40px);
+            opacity: 0;
+            z-index: 1;
+            } 
+            90% {
+            transform: scale(0.75);
+            opacity: 1;
+            z-index: 1;
+            }
+        }
+    </style>
+    
+    <!-- title -->
+    <title>الاسطورة</title>
+</head>
+<body>
+    <!-- 
+        ------------------
+            header start 
+        ------------------
+    -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="home.html">
+                <img src="assets/images/logo.png" alt="logo" width="70">
+                <h2>مجموعة شركات كارمن الاسطورة</h2>
+            </a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="home.html">الرئيسية</a></li>
+            <li><a href="#about">عنا</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">شركاتنا</a>
+                <div class="dropdown-content">
+                    <a href="al-hayat.html"> حياة التقدم</a>
+                    <a href="al-stora.html">الاسطورة</a>
+                    <a href="al-khlud.html">الخلود</a>
+                    <a href="al-mbrator.html">الامبراطور</a>
+                    <a href="al-ruby.html">الروبي</a>
+                </div>
+            </li>
+            <li><a href="projects.html">مشاريعنا </a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+        <button class="navbar-toggle" id="navbar-toggle">&#9776;</button>
+    </nav>
+    <!-- 
+    ------------------
+        header end 
+    ------------------
+    -->
+    <!-- 
+    ------------------
+        main start 
+    ------------------
+    -->
+    <main>
+        <!-- 
+        ------------------
+            hero start 
+        ------------------
+        -->
+        <section class="company-section">
+            <div class="container">
+                <h1 class="comp-name">مجموعة شركات كامران</h1>
+                <div class="logo">
+                    <img src="/assets/images/al-stora.png" alt="شعار الشركة">
+                </div>
+                <div class="description">
+                    <p>المشروعات السکنیة والترفیهیة والتجاریة والطبیة, ومن خلال رؤیة قائمة علی
+                        الإهتمام بکافة التفاصیل ابتداء من دقة إختیار المهندسین والمقاولین وجمیع
+                        العاملین في مشاریع الشرکة ومرورا "بإختیار أحسن التصمیمات المعماریة
+                        ودراسة جمیع تفاصیلها دراسة دقیقة وانتهاء "بتسلیم الوحدات لعملائنا في
+                        المواعید المحددة والتأکد من رضائهم عن أداء الشرکة</p>
+                </div>
+                <div class="body">
+                    <div class="card card-green"></div>
+                    <div class="card card-blue"></div>
+                    <div class="card card-yellow"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 
+        ------------------
+            hero end
+        ------------------
+        -->
+    </main>
+    <!-- 
+    ------------------
+        main end 
+    ------------------
+    -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h4 class="company-details">مجموعة شركات كارمن الاسطورة</h4>
+                <div class="company-logos-footer">
+                    <a href="al-hayat.html">
+                        <img src="assets/images/al-hayat.png" alt="Logo 1">
+                    </a>
+                    <a href="al-ruby.html">
+                        <img src="assets/images/al-ropy.png" alt="Logo 2">
+                    </a>
+                    <a href="al-mbrator.html">
+                        <img src="assets/images/mbrator.png" alt="Logo 5">
+                    </a>
+                    <a href="al-khlud.html">
+                        <img src="assets/images/kluad.png" alt="Logo 4">
+                    </a>
+                    <a href="al-stora.html">
+                        <img src="assets/images/al-stora.png" alt="Logo 3">
+                    </a>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/kamaranostora.iq?mibextid=LQQJ4d" target="_blank"><ion-icon class="icons" name="logo-facebook" t></ion-icon></a>
+                <a href="https://www.instagram.com/kamaran__ostora?igsh=MWM3dmpteWt4aHk2aQ==" target="_blank"><ion-icon class="icons" name="logo-instagram"></ion-icon></a>
+                <a href="tel:+964 770 469 9779" target="_blank"><ion-icon class="icons" name="logo-whatsapp"></ion-icon></a>
+            </div>
+        </div>
+        <p class="footer-bottom">All rights reserved by <a href="https://www.project.iq" target="_blank">Project.iQ</p>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.company-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+.comp-name {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    text-align: justify;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin: 0 0 100px;
+}
