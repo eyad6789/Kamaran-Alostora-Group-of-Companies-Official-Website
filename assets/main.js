@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const hero = document.querySelector('.hero');
     const images = [
-        '/assets/images/bg-1.jpg',
-        '/assets/images/bg-2.jpg',
-        '/assets/images/bg-3.jpg'
+        'assets/images/bg-1.jpg',
+        'assets/images/bg-2.jpg',
+        'assets/images/bg-3.jpg'
     ];
     var currentIndex = 0;
 
