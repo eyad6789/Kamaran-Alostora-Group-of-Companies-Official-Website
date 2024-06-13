@@ -494,7 +494,7 @@ a {
     */
 .projects {
     position: relative;
-    background-image: url('assets/images/projects.jpg'); /* Replace with your background image */
+    background-image: url('images/projects.jpg'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     width: 85%;
