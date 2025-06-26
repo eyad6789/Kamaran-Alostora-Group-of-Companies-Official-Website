@@ -53,6 +53,9 @@ Edit
 - Ionicons Icons Library
 - Fully responsive modern design
 
+## © All Rights Reserved
+Official Website of Kamaran Alostora Group of Companies
+
 
 ## Social Media
 - [Linked In](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
