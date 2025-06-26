@@ -16,9 +16,9 @@ The website provides information about:
 - 🔹 About Us: Our vision, goals, and mission
 - 🔹 Our Companies: Overview of all companies within the group
 - 🔹 Projects: Showcasing our major investment projects
-= 🔹 Services: A wide range of industrial, commercial, real estate, and tourism services
+- 🔹 Services: A wide range of industrial, commercial, real estate, and tourism services
 - 🔹 News: Updates on our latest social and charity activities
-= 🔹 Contact Us: Get in touch with our management
+- 🔹 Contact Us: Get in touch with our management
 
 ## 🖥️ Live Preview
 You can visit the website at the following link (after hosting the files on GitHub Pages or any other web server):
