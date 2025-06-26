@@ -55,7 +55,9 @@ Edit
 
 
 ## Social Media
-[Eyad Qasim](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
+- [Linked In](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
+- [Github](https://github.com/eyad6789)
+
 
 
 
